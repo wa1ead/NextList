@@ -7,7 +7,6 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>HOMEPAGE</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi
@@ -24,7 +23,6 @@ export default function Home() {
       <Link href="/lists">
         <a>ALL PERSONS LISTING</a>
       </Link>
-      <Footer />
     </div>
   );
 }
