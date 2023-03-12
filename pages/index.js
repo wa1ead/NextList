@@ -24,8 +24,8 @@ export default function Home() {
           Quam magni accusantium culpa distinctio tempore iure accusamus,
           dolorem nobis odit.
         </p>
-        <Link href="/lists">
-          <a className={styles.btn}>ALL PERSONS LISTING</a>
+        <Link href="/users">
+          <a className={styles.btn}>ALL USERS LISTING</a>
         </Link>
       </div>
     </>
