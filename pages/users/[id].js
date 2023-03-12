@@ -23,13 +23,13 @@ export const getStaticProps = async (context) => {
   };
 };
 
-const Details = (user) => {
+const Details = ({ user }) => {
   return (
     <div>
       <h1>{user.name}</h1>
       <p>{user.email}</p>
       <p>{user.website}</p>
-      <p>{user.phone}</p>
+      <p>{user.address.city}</p>
     </div>
   );
 };
