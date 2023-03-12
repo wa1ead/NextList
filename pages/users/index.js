@@ -1,4 +1,4 @@
-import styles from "../../styles/Lists.module.css";
+import styles from "../../styles/Users.module.css";
 import Link from "next/link";
 
 export const getStaticProps = async () => {
